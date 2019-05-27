@@ -1,0 +1,424 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1326569564,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommunityPageStepDef.setsession()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To verify user navigation to correct topic page from Community Page",
+        "description": "",
+        "id": "testing-functionality-on-community-page;to-verify-user-navigation-to-correct-topic-page-from-community-page",
+        "after": [
+          {
+            "result": {
+              "duration": 128348462,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommunityPageStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2247032872,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to \"RevolutCommunity\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RevolutCommunity",
+                  "offset": 19
+                }
+              ],
+              "location": "CommunityPageStepDef.user_navigates_to_Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127255879,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on \"searchIcon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "searchIcon",
+                  "offset": 16
+                }
+              ],
+              "location": "CommunityPageStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 287983190,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"searchText\" in \"SearchTextBox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "searchText",
+                  "offset": 13
+                },
+                {
+                  "val": "SearchTextBox",
+                  "offset": 29
+                }
+              ],
+              "location": "CommunityPageStepDef.user_enters_text_in_textBox(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 719281851,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify \"searchText\" should appear in \"searchDropdown\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "searchText",
+                  "offset": 8
+                },
+                {
+                  "val": "searchDropdown",
+                  "offset": 38
+                }
+              ],
+              "location": "CommunityPageStepDef.verify_searched_topic_should_appear_in_dropdown(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 167509168,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on \"searchText\" from \"searchDropdown\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "searchText",
+                  "offset": 16
+                },
+                {
+                  "val": "searchDropdown",
+                  "offset": 34
+                }
+              ],
+              "location": "CommunityPageStepDef.user_clicks_on_text_from_search_dropdown(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 434276157,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify \"searchText\" is appearing as \"topicTitle\" on opened page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "searchText",
+                  "offset": 8
+                },
+                {
+                  "val": "topicTitle",
+                  "offset": 37
+                }
+              ],
+              "location": "CommunityPageStepDef.verify_selected_Text_is_appearing_on_opened_page(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@revolut"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 997886698,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommunityPageStepDef.setsession()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To Verify The Keyboard Shortcuts on Community Page",
+        "description": "",
+        "id": "testing-functionality-on-community-page;to-verify-the-keyboard-shortcuts-on-community-page",
+        "after": [
+          {
+            "result": {
+              "duration": 126399925,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommunityPageStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2267340359,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User navigates to \"RevolutCommunity\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RevolutCommunity",
+                  "offset": 19
+                }
+              ],
+              "location": "CommunityPageStepDef.user_navigates_to_Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 76253129,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on \"hamburgerMenu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hamburgerMenu",
+                  "offset": 16
+                }
+              ],
+              "location": "CommunityPageStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104088008,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on \"keyboardShortcuts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "keyboardShortcuts",
+                  "offset": 16
+                }
+              ],
+              "location": "CommunityPageStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 542428904,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User validate the content of \"shortcutsOptions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shortcutsOptions",
+                  "offset": 30
+                }
+              ],
+              "location": "CommunityPageStepDef.user_validate_the_content_of_placeHolder(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@revolut"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 906066380,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommunityPageStepDef.setsession()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "To Verify user is able to change the language on community page",
+        "description": "",
+        "id": "testing-functionality-on-community-page;to-verify-user-is-able-to-change-the-language-on-community-page",
+        "after": [
+          {
+            "result": {
+              "duration": 136291674,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommunityPageStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2328890605,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User navigates to \"RevolutHome\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RevolutHome",
+                  "offset": 19
+                }
+              ],
+              "location": "CommunityPageStepDef.user_navigates_to_Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 192049695,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks on \"selectCountryIcon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selectCountryIcon",
+                  "offset": 16
+                }
+              ],
+              "location": "CommunityPageStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 393713596,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters \"searchUSText\" in \"searchCountryTextBox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "searchUSText",
+                  "offset": 13
+                },
+                {
+                  "val": "searchCountryTextBox",
+                  "offset": 31
+                }
+              ],
+              "location": "CommunityPageStepDef.user_enters_text_in_textBox(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 440393642,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks on \"USText\" from \"searchedCountryTextBox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "USText",
+                  "offset": 16
+                },
+                {
+                  "val": "searchedCountryTextBox",
+                  "offset": 30
+                }
+              ],
+              "location": "CommunityPageStepDef.user_clicks_on_text_from_search_dropdown(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30050901,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User validate that correct Url opens up for \"RevolutUSPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RevolutUSPage",
+                  "offset": 45
+                }
+              ],
+              "location": "CommunityPageStepDef.user_validate_that_correct_url_opens_up_for_revolut(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@revolut"
+          },
+          {
+            "line": 19,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Testing functionality on Community Page",
+    "description": "",
+    "id": "testing-functionality-on-community-page",
+    "keyword": "Feature",
+    "uri": "CommunityTest.feature"
+  }
+]

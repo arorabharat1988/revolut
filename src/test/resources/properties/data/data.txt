@@ -1,0 +1,44 @@
+g, h Home
+g, l Latest
+g, n New
+g, u Unread
+g, c Categories
+g, t Top
+g, b Bookmarks
+g, p Profile
+g, m Messages
+g, d Drafts
+u Back
+# Go to post #
+k/j Move selection ↑ ↓
+o or Enter Open selected topic
+shift+j/shift+k Next/previous section
+= Open hamburger menu
+p Open user menu
+. Show updated topics
+/ or ctrl+alt+f Search
+? Open keyboard help
+x, r Dismiss New/Posts
+x, t Dismiss Topics
+shift+z shift+z Log Out
+shift+c Return to composer
+shift+F11 Fullscreen composer
+c Create a new topic
+t Reply as linked topic
+shift+r Reply to topic
+r Reply to post
+q Quote post
+f Toggle bookmark topic
+shift+p Pin/Unpin topic
+shift+s Share topic
+s Share post
+l Like post
+! Flag post
+b Bookmark post
+e Edit post
+d Delete post
+m, m Mute topic
+m, r Regular (default) topic
+m, t Track topic
+m, w Watch topic
+ctrl+p Print topic
